@@ -2,7 +2,7 @@
 
 void setup() {
   pinMode(led, OUTPUT);  // LED pini çıkış moduna ayarlanır
-  Serial.begin(9600);    // Seri iletişim başlatılır (opsiyonel, seri monitör için)
+  Serial.begin(9600);    // Seri iletişim başlatılır (seri monitör için)
 }
 
 void loop() {
@@ -11,11 +11,11 @@ void loop() {
   delay(50);                  // 50 milisaniye bekler
 
   if (isik > 470) {
-    digitalWrite(led, LOW);   // Eğer ışık seviyesi 470'ten büyükse LED'i kapat
+    digitalWrite(led, LOW);   // Eğer ışık seviyesi 470'ten büyükse LED'i kapat,Bun değeri kendi ortamıma göre yazdım siz de öyle yapabilirsiniz.
   }
 
   if (isik < 470) {
-    digitalWrite(led, HIGH);  // Eğer ışık seviyesi 470'den küçükse LED'i yak
+    digitalWrite(led, HIGH);  // Eğer ışık seviyesi 470'den küçükse LED'i yak,Bu değeri ben kendi ortamıma göre yazdım siz de öyle yapabilirsiniz.
   }
 }
 
