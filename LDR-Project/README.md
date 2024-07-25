@@ -18,5 +18,5 @@ Bu proje, Arduino ve bir LDR (Işık Bağımlı Direnç) kullanarak ortam ışı
 
 
 
-Böylelikle ışığı kapattığınızda otomatik olarak yanan bir lediniz,açtığınızda da otomatik olarak açılan bir lediniz olacak,pardon led mi dedim!
-gece lambası olmalı:):)
+Böylelikle ışığı kapattığınızda otomatik olarak yanan bir lediniz açtığınızda da otomatik olarak açılan bir lediniz olacak.Pardon led mi dedim,
+Gece Lambası olmalı:)
